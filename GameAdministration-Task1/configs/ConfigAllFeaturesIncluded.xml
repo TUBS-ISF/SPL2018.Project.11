@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="GameAdministrationTask1"/>
+    <feature automatic="selected" name="Game"/>
+    <feature automatic="selected" name="Title"/>
+    <feature automatic="selected" name="Publisher"/>
+    <feature automatic="selected" name="Category"/>
+    <feature automatic="selected" manual="selected" name="Played"/>
+    <feature manual="selected" name="TimePlayed"/>
+    <feature manual="selected" name="Finished"/>
+    <feature automatic="selected" name="Rating"/>
+    <feature manual="selected" name="ReleaseDate"/>
+    <feature automatic="selected" manual="selected" name="Useful Links"/>
+    <feature manual="selected" name=".Exe"/>
+    <feature manual="selected" name="Updater"/>
+    <feature manual="selected" name="Steam"/>
+    <feature manual="selected" name="Support"/>
+    <feature automatic="selected" manual="selected" name="Platform"/>
+    <feature manual="selected" name="Windows"/>
+    <feature manual="selected" name="XBOX"/>
+    <feature manual="selected" name="Playstation"/>
+    <feature manual="selected" name="GUI"/>
+    <feature automatic="selected" name="Collection"/>
+    <feature automatic="selected" name="Sort"/>
+    <feature automatic="selected" name="ByTitle"/>
+    <feature manual="selected" name="ByRating"/>
+    <feature manual="selected" name="ByCategory"/>
+    <feature manual="selected" name="ByPublisher"/>
+    <feature manual="selected" name="ByPlatform"/>
+    <feature manual="selected" name="Search"/>
+    <feature automatic="selected" name="API"/>
+    <feature manual="selected" name="Add"/>
+    <feature manual="selected" name="Delete"/>
+    <feature manual="selected" name="Rate"/>
+    <feature manual="selected" name="Update"/>
+    <feature automatic="selected" manual="selected" name="Datasource"/>
+    <feature automatic="selected" manual="selected" name="Save"/>
+    <feature manual="selected" name="PDF"/>
+    <feature manual="selected" name="TXT"/>
+    <feature automatic="selected" name="Load"/>
+    <feature manual="selected" name=".TXT"/>
+    <feature manual="selected" name="Pastebin"/>
+    <feature automatic="selected" name="Interaction"/>
+    <feature manual="selected" name="GetRecommendations"/>
+    <feature manual="selected" name="AddRecommendation"/>
+</configuration>
