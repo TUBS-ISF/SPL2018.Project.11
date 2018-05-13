@@ -1,0 +1,12 @@
+Model im Vergleich zu Task1 leicht angepasst
+GameAdministrationSave.txt wird durch das Save - TXT feature erstellt.
+Get wird für DIESE Abgabe auf mandatory gesetzt, sonst wäre die Sortierung schlecht überprüfbar.
+Desweiteren ist in GameAdministration ein Basis Set von Spielen hinterlegt worden, weil aktuell noch kein add feature implementiert ist.
+
+Bedienung:
+1) Gewünschte Config als StartConfig auswählen
+2) Starten
+3) Kommandos über Kommandozeile eingeben:
+get -> gibt die Collection aus
+save -> speichert die Collection in GameAdministrationSave.txt
+end -> beendet die Applikation
