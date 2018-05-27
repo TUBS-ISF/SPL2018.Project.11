@@ -1,0 +1,10 @@
+In GameAdministration ist ein Basis Set von Spielen hinterlegt worden, weil aktuell noch kein add feature implementiert ist.
+Die Configuration SmallPackage ist nur da um den Fall zu repräsentieren, dass (fast) keine Feature ausgewählt werden, dementsprechend wenig passiert beim Ausführen.
+
+Bedienung:
+1) Gewünschte Config als StartConfig auswählen
+2) Starten
+3) Kommandos über Kommandozeile eingeben:
+get -> gibt die Collection aus
+save -> speichert die Collection in GameAdministrationSave.txt
+end -> beendet die Applikation
