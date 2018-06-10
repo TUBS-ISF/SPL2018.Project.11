@@ -50,10 +50,10 @@ public class GameAdministration {
 		// @
 		// #endif
 		// #if ByTitle
-
-		Quicksort qs = new Quicksort();
-		games = qs.sort(games, new TitleComparator());
-
+//@
+//@		Quicksort qs = new Quicksort();
+//@		games = qs.sort(games, new TitleComparator());
+//@
 		// #endif
 		// #if ByRating
 		// @
@@ -61,20 +61,20 @@ public class GameAdministration {
 		// @ games = qs.sort(games, new RatingComparator());
 		// @
 		// #endif
-		games[0].printHead();
-		for (int i = 0; i < games.length; i++) {
-			games[i].print();
-		}
+//@		games[0].printHead();
+//@		for (int i = 0; i < games.length; i++) {
+//@			games[i].print();
+//@		}
 		// #else
-		// @ System.out.println("Feature not selected!");
+		 System.out.println("Feature not selected!");
 		// #endif
 	}
 
 	private static void save() {
 		// #if TXT
-
-		try {
-			PrintWriter out = new PrintWriter("GameAdministrationSave.txt");
+//@
+//@		try {
+//@			PrintWriter out = new PrintWriter("GameAdministrationSave.txt");
 			// #if ByCategory
 			// @
 			// @ Quicksort qs = new Quicksort();
@@ -88,10 +88,10 @@ public class GameAdministration {
 			// @
 			// #endif
 			// #if ByTitle
-
-			Quicksort qs = new Quicksort();
-			games = qs.sort(games, new TitleComparator());
-
+//@
+//@			Quicksort qs = new Quicksort();
+//@			games = qs.sort(games, new TitleComparator());
+//@
 			// #endif
 			// #if ByRating
 			// @
@@ -99,17 +99,17 @@ public class GameAdministration {
 			// @ games = qs.sort(games, new RatingComparator());
 			// @
 			// #endif
-			out.println("Title,Publisher,Category,Rating");
-			for (int i = 0; i < games.length; i++) {
-				out.println(games[i].toString());
-			}
-			out.close();
-		} catch (FileNotFoundException e) {
-			System.out.println("File not found!");
-			e.printStackTrace();
-		}
+//@			out.println("Title,Publisher,Category,Rating");
+//@			for (int i = 0; i < games.length; i++) {
+//@				out.println(games[i].toString());
+//@			}
+//@			out.close();
+//@		} catch (FileNotFoundException e) {
+//@			System.out.println("File not found!");
+//@			e.printStackTrace();
+//@		}
 		// #else
-		// @ System.out.println("Feature not selected!");
+		 System.out.println("Feature not selected!");
 		// #endif
 	}
 }

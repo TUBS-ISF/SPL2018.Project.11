@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/rt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/access-bridge-32.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/cldrdata.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/dnsns.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/jaccess.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/localedata.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/nashorn.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/sunec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/sunjce_provider.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/sunmscapi.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/sunpkcs11.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/jre1.8.0_102/lib/ext/zipfs.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="/GameAdministration-Task4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

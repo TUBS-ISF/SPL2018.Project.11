@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="interfaces.IComparator">
+		<class>PublisherComparator</class>
+	</interface>
+</plugins>

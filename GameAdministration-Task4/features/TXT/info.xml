@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="interfaces.ISave">
+		<class>SaveAsTXT</class>
+	</interface>
+</plugins>

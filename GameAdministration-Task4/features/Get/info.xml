@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="interfaces.IApi">
+		<class>Get</class>
+	</interface>
+</plugins>

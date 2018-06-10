@@ -1,0 +1,5 @@
+<plugins>
+	<interface id="interfaces.IComparator">
+		<class>TitleComparator</class>
+	</interface>
+</plugins>
