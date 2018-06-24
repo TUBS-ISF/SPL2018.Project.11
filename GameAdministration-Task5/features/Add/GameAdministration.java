@@ -11,7 +11,7 @@ public class GameAdministration {
 		try {
 			String[] gameStrings = gameString.split(",");
 			for(String string: gameStrings) {
-				if (string == null) {
+				if (string == null || string.equals("")) {
 					System.out.println("Null is not an option.");
 					return;
 				}
@@ -23,6 +23,11 @@ public class GameAdministration {
 			}
 			
 			int rating = Integer.parseInt(gameStrings[3]);
+			
+			if(rating < 0 || rating > 100) {
+				System.out.println("This does not work with such ratings...");
+				return;
+			}
 			
 			Game[] gamesTemp = new Game[games.length + 1];
 			for (int i = 0; i < games.length; i++) {
