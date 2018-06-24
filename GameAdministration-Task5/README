@@ -1,0 +1,9 @@
+IMPORTANT
+->Ausführung auf Windows?
+=>Keine Probleme bekannt.
+
+->Ausführung auf Unix?
+=>Es kann sein, dass add() NICHT funktioniert, Grund dafür ist die Einstellung des scanners:use.Delimiter(\r\n). \r, damit es auf meinem Windows Rechner funktioniert.
+=>Da ich keinen Unix Rechner zur Hand habe, kann ich nicht sagen ob der Delimiter für Unix funktioniert, ich würde aber vermuten nein!
+=>Für Unix sollte im Feature Add in der Klasse, in der Methode die Delimiter Signatur auf vermutlich \n gesetzt werden.
+=>Da ich es nicht sicher weiß, prüfen kann, werde ich KEIN Feature für Unix einführen, welches dann vllt. nicht funktioniert...

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="GameAdministrationTask1">
+            <description>
+SPL for Game-Administration.
+</description>
+            <and mandatory="true" name="Game">
+                <description>
+Game is an Entity and the object of the collection.
+Represents generic Information regarding Games.
+</description>
+                <feature mandatory="true" name="Title">
+                    <description>
+Title of the game.
+</description>
+                </feature>
+                <feature mandatory="true" name="Publisher">
+                    <description>
+Publisher of the game.
+</description>
+                </feature>
+                <feature mandatory="true" name="Category">
+                    <description>
+Category which fits the game.
+For Example: RPG in case of Skyrim.
+</description>
+                </feature>
+                <feature abstract="true" hidden="true" name="Played">
+                    <description>
+Has the person already played the game?
+</description>
+                </feature>
+                <feature abstract="true" hidden="true" name="TimePlayed">
+                    <description>
+Holds the total play time.
+</description>
+                </feature>
+                <feature abstract="true" hidden="true" name="Finished">
+                    <description>
+Has the person finished the game?
+</description>
+                </feature>
+                <feature mandatory="true" name="Rating">
+                    <description>
+The rating of the game, by the person administering the collection.
+</description>
+                </feature>
+                <feature abstract="true" hidden="true" name="ReleaseDate">
+                    <description>
+At which date was the game released?
+</description>
+                </feature>
+                <and abstract="true" hidden="true" name="Useful Links">
+                    <description>
+Collection of useful links regarding the game.
+Links in this context represent paths in the file system as well as links in terms of URLs.
+</description>
+                    <feature abstract="true" name=".Exe">
+                        <description>
+File system path pointing at the executable.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Updater">
+                        <description>
+File system path pointing at the updater.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Steam">
+                        <description>
+URL for the steampage of the game. If it exists.
+</description>
+                    </feature>
+                    <feature abstract="true" name="Support">
+                        <description>
+URL leading to the support page for the game.
+</description>
+                    </feature>
+                </and>
+                <and abstract="true" hidden="true" name="Platform">
+                    <description>
+For which platforms is this game available?
+</description>
+                    <feature abstract="true" name="Windows">
+                        <description>
+Represents the platform Windows
+</description>
+                    </feature>
+                    <feature abstract="true" name="XBOX">
+                        <description>
+Represents the platform XBOX
+</description>
+                    </feature>
+                    <feature abstract="true" name="Playstation">
+                        <description>
+Represents the platform Playstation
+</description>
+                    </feature>
+                </and>
+            </and>
+            <feature abstract="true" hidden="true" name="GUI">
+                <description>
+Graphical User Interface.
+Representation of the GameAdministration in an GUI.
+</description>
+            </feature>
+            <and mandatory="true" name="Collection">
+                <description>
+List of Games to administer
+</description>
+                <alt abstract="true" mandatory="true" name="Sort">
+                    <description>
+Sorts the collection in relation to an Information like title.
+</description>
+                    <feature name="ByTitle">
+                        <description>
+Sorts the collection by title, alphabetical.
+</description>
+                    </feature>
+                    <feature name="ByRating">
+                        <description>
+Sorts the collection by rating.
+</description>
+                    </feature>
+                    <feature name="ByCategory">
+                        <description>
+Sorts the collection by category, alphabetical.
+</description>
+                    </feature>
+                    <feature name="ByPublisher">
+                        <description>
+Sorts the collection by publisher, alphabetical.
+</description>
+                    </feature>
+                    <feature abstract="true" hidden="true" name="ByPlatform">
+                        <description>
+Sorts the collection by platform, grouped by platform and alphabetical.
+</description>
+                    </feature>
+                </alt>
+                <feature abstract="true" hidden="true" name="Search">
+                    <description>
+Allows text search inside the Collection
+</description>
+                </feature>
+                <and abstract="true" mandatory="true" name="API">
+                    <description>
+Encompases the ways to interact with the collection from within the bounds of the program.
+</description>
+                    <feature name="Add">
+                        <description>
+Adds an game to the collection.
+</description>
+                    </feature>
+                    <feature name="Delete">
+                        <description>
+Deletes a game from the collection.
+</description>
+                    </feature>
+                    <feature name="Get">
+                        <description>
+Returns the Collection
+</description>
+                    </feature>
+                    <feature abstract="true" hidden="true" name="Update">
+                        <description>
+Allows the update of the information regarding a game of the collection.
+</description>
+                    </feature>
+                </and>
+                <and abstract="true" name="Datasource">
+                    <description>
+Desribes the interaction with a source outside of the bounds of the program.
+</description>
+                    <and abstract="true" name="Save">
+                        <description>
+Encompasses the ways to save the collection.
+</description>
+                        <feature abstract="true" hidden="true" name="PDF">
+                            <description>
+Saves Collection as a pdf
+</description>
+                        </feature>
+                        <feature name="TXT">
+                            <description>
+Saves Collection as a txt
+</description>
+                        </feature>
+                    </and>
+                    <and abstract="true" hidden="true" name="Load">
+                        <description>
+Encompasses the ways to load a collection.
+</description>
+                        <feature abstract="true" name=".TXT">
+                            <description>
+Loads a collextion from a txt
+</description>
+                        </feature>
+                        <feature abstract="true" name="Pastebin">
+                            <description>
+Loads a collection from a pastebin URL
+</description>
+                        </feature>
+                    </and>
+                </and>
+            </and>
+            <and abstract="true" hidden="true" name="Interaction">
+                <description>
+Interaction with other people.
+</description>
+                <feature abstract="true" name="GetRecommendations">
+                    <description>
+Gather recommendations for games in relation to the users interests.
+</description>
+                </feature>
+                <feature abstract="true" name="AddRecommendation">
+                    <description>
+Give another person a recommendation for a game
+</description>
+                </feature>
+            </and>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <imp>
+                <var>Finished</var>
+                <var>Played</var>
+            </imp>
+        </rule>
+        <rule>
+            <imp>
+                <var>TimePlayed</var>
+                <var>Played</var>
+            </imp>
+        </rule>
+        <rule>
+            <imp>
+                <var>ByPlatform</var>
+                <var>Platform</var>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="false"/>
+</featureModel>
