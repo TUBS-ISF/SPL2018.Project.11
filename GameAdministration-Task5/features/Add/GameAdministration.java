@@ -2,7 +2,7 @@ public class GameAdministration {
 
 	private static void add() {
 		System.out.println("Enter a game, seperated by ',', you can abort with typing abort");
-		scanner.useDelimiter("\r\n");
+		scanner.useDelimiter(getDelimiter());
 		String gameString = scanner.next();
 		if (gameString.equals("abort")) {
 			System.out.println("successfully aborted");

@@ -14,4 +14,7 @@
     <feature automatic="unselected" name="ByPublisher"/>
     <feature automatic="unselected" name="ByPlatform"/>
     <feature automatic="selected" name="API"/>
+    <feature automatic="selected" name="OS"/>
+    <feature automatic="unselected" name="Unix"/>
+    <feature manual="selected" name="Win"/>
 </configuration>

@@ -1,13 +1,8 @@
 IMPORTANT
-->Ausführung auf Windows?
-=>Keine Probleme bekannt.
-
-->Ausführung auf Unix?
-=>Das Add() Feature wird NICHT funktionieren. Grund: scanner.useDelimiter("\r\n");
-=>Ich verwende Windows daher obige Zeile.
-=>Auf einem Unix basierten System, wie einem Mac, muss stattdessen useDelimiter("\n") verwendet werden.
-
-->Warum gibt es Auswahl OS nicht als Feature?
-=>A) Wir haben am Anfang abgesprochen das Feature Model nachträglich nicht anzupassen
-=>B) Das Model lässt sich auf meinem Windowsrechner nach Commit an GIT nicht mehr ändern.
-=>Es tut so, erstellt neue Ordner aber unter FeatureHouse wird das Model nach einem Speichern einfach wieder zurückgesetzt ...
+Im Feature Add wird der Scanner verwendet um Informationen aus der cmd einzulesen.
+Dabei sollen Spiele wie Dark Souls eingelesen werden können.
+Standard Einstellung des scanners wird Dark und Souls trennen, Leerzeichen mag der Scanner nicht!
+Deswegen wird useDelimiter verwendet. Allerdings ist useDelimiter von Windows und Unix unterschiedlich.
+Windows braucht "\r\n" und Unix, zum mindest mein Mac, "\n"
+Daher habe ich für diese Abgabe und auch für die nächste OS als Feature im Model hinzugefügt.
+Also bitte für das Testen das richtige OS auswählen, sonst kann es nicht funktionieren!

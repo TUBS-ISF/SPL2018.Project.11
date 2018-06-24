@@ -20,4 +20,7 @@
     <feature automatic="selected" name="Datasource"/>
     <feature automatic="selected" name="Save"/>
     <feature manual="selected" name="TXT"/>
+    <feature automatic="selected" name="OS"/>
+    <feature automatic="unselected" name="Unix"/>
+    <feature manual="selected" name="Win"/>
 </configuration>

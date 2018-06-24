@@ -57,4 +57,6 @@ public class GameAdministration {
 	}
 	
 	private static Comparator<Game> getComparator() { }
+	
+	private static String getDelimiter() { }
 }
