@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="GameAdministrationTask6"/>
+    <feature automatic="selected" name="Game"/>
+    <feature automatic="selected" name="Title"/>
+    <feature automatic="selected" name="Publisher"/>
+    <feature automatic="selected" name="Category"/>
+    <feature automatic="selected" name="Rating"/>
+    <feature automatic="selected" name="Collection"/>
+    <feature automatic="selected" name="Sort"/>
+    <feature automatic="unselected" name="ByTitle"/>
+    <feature manual="selected" name="ByRating"/>
+    <feature automatic="unselected" name="ByCategory"/>
+    <feature automatic="unselected" name="ByPublisher"/>
+    <feature automatic="unselected" name="ByPlatform"/>
+    <feature automatic="selected" name="API"/>
+    <feature manual="selected" name="Get"/>
+    <feature automatic="selected" name="OS"/>
+    <feature automatic="unselected" name="Unix"/>
+    <feature manual="selected" name="Win"/>
+</configuration>
