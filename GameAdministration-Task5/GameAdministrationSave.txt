@@ -1,1 +1,7 @@
 Title, Publisher, Category, Rating
+CSGO,Valve Corporation,FPS,87
+Dark Souls 1,From Software,RPG,100
+Dark Souls 2,From Software,RPG,96
+Dark Souls 3,From Software,RPG,100
+Overwatch,Blizzard,FPS,97
+Warcraft 3,Blizzard,Strategy,98
