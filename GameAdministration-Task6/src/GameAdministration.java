@@ -1,12 +1,9 @@
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class GameAdministration {
 
 	public static Game[] games = new Game[6];
-	private static Scanner scanner = new Scanner(System.in);
-	private static Comparator<Game> comparator;
-	private static String delimiter;
+	public static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String args[]) {
 		init();
@@ -23,8 +20,14 @@ public class GameAdministration {
 			case "delete":
 				delete();
 				break;
+			case "update":
+				update();
+				break;
 			case "save":
 				save();
+				break;
+			case "load":
+				load();
 				break;
 			case "end":
 				keepalive = false;
@@ -56,6 +59,14 @@ public class GameAdministration {
 	}
 	
 	private static void delete() {
+		System.out.println("Feature not selected");
+	}
+	
+	private static void update() {
+		System.out.println("Feature not selected");
+	}
+	
+	private static void load() {
 		System.out.println("Feature not selected");
 	}
 	

@@ -192,7 +192,7 @@ Saves Collection as a txt
                         <description>
 Encompasses the ways to load a collection.
 </description>
-                        <feature name=".TXT">
+                        <feature name="FromTXT">
                             <description>
 Loads a collextion from a txt
 </description>

@@ -1,4 +1,4 @@
-aspect Get {
+public aspect Get {
 
 	pointcut getting() : execution(* GameAdministration.get(..));
 	
